@@ -3500,7 +3500,7 @@
                         if (!this._logo) {
                             var e = this.tooltipContainer.children.push(r.W.new(this, {
                                 interactive: !0,
-                                interactiveChildren: !1,
+                                // interactiveChildren: !1,
                                 position: "absolute",
                                 setStateOnChildren: !0,
                                 paddingTop: 9,
@@ -3508,12 +3508,12 @@
                                 paddingBottom: 9,
                                 paddingLeft: 9,
                                 scale: .6,
-                                y: (0, M.aQ)(100),
+                                // y: '(0, M.aQ)(100)',
                                 centerY: M.AQ,
                                 tooltipText: "Created using amCharts 5",
-                                tooltipX: M.AQ,
-                                cursorOverStyle: "pointer",
-                                background: y.A.new(this, {fill: (0, C.$_)(4671320), fillOpacity: 0, tooltipY: 5})
+                                // tooltipX: M.AQ,
+                                // cursorOverStyle: "pointer",
+                                // background: y.A.new(this, {fill: (0, C.$_)(4671320), fillOpacity: 0, tooltipY: 5})
                             })), t = v.u.new(this, {
                                 pointerOrientation: "horizontal",
                                 paddingTop: 4,
@@ -15479,7 +15479,7 @@
                             scale: 1,
                             opacity: 1,
                             rotation: 0,
-                            position: "relative",
+                            // position: "relative",
                             tooltipX: a.CI,
                             tooltipY: a.CI,
                             tooltipPosition: "fixed",
@@ -19464,3 +19464,4 @@
     for (var c in l) u[c] = l[c];
     l.__esModule && Object.defineProperty(u, "__esModule", {value: !0})
 }();
+

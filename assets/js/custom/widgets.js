@@ -305,11 +305,11 @@ var KTWidgets = function () {
 
             var options = {
                 series: [{
-                    name: 'Net Profit',
-                    data: [44, 55, 57, 56, 61, 58]
-                }, {
-                    name: 'Revenue',
+                    name: 'Inquiries',
                     data: [76, 85, 101, 98, 87, 105]
+                }, {
+                    name: 'Closing',
+                    data: [44, 55, 57, 56, 61, 58]
                 }],
                 chart: {
                     fontFamily: 'inherit',
@@ -334,7 +334,7 @@ var KTWidgets = function () {
                 },
                 stroke: {
                     show: true,
-                    width: 2,
+                    width: 0,
                     colors: ['transparent']
                 },
                 xaxis: {
@@ -390,7 +390,8 @@ var KTWidgets = function () {
                     },
                     y: {
                         formatter: function (val) {
-                            return "$" + val + " thousands"
+                            // return "$" + val + " thousands"
+                            return val
                         }
                     }
                 },
